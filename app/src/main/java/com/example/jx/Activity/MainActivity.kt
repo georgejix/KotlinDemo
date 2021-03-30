@@ -4,9 +4,6 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import com.example.jx.R
-import com.example.jx.Test
-import com.example.jx.Test2
-import com.example.jx.Test3
 import com.example.jx.tools.LogUtil
 
 
@@ -22,8 +19,5 @@ class MainActivity : Activity() {
             LogUtil.logd(TAG, "NOT BROUGHT_TO_FRONT")
         }
         setContentView(R.layout.activity_main)
-        Test().startTest(this)
-        Test2().startTest(this)
-        Test3("ppp", "ppp2").startTest(this)
     }
 }

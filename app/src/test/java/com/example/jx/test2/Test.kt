@@ -1,4 +1,4 @@
-package com.example.jx
+package com.example.jx.test2
 
 import android.content.Context
 import android.service.autofill.Validators.and
